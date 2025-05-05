@@ -39,10 +39,15 @@ body {
     border: solid 2px #9AABD8;
     background: transparent;
     color:#9AABD8;
+    cursor: pointer;
     width: 45px;
     height: 45px;
     border-radius: 5px;
     border-width: 2px;
+}
+
+.score-button:hover {
+    transform: translateY(-2px);
 }
 
 .user-title {
